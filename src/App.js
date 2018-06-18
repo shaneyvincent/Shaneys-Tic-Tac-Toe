@@ -15,15 +15,7 @@ class App extends Component {
         <h1> Shaneys Tic Tac Toe App </h1>
         <div className="board">
         {Box}
-          // <div className="box">X</div>
-          // <div className="box">X</div>
-          // <div className="box"></div>
-          // <div className="box"></div>
-          // <div className="box"></div>
-          // <div className="box"></div>
-          // <div className="box"></div>
-          // <div className="box"></div>
-          // <div className="box"></div>
+        
         </div>
       </div>
     );
