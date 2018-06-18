@@ -14,7 +14,7 @@ handleClick(e) {
 }
 
   render() {
-     const Box = this.state.board.map(box => <div className="box" key={index} onClick={this.handleClick()}>{box}</div>)
+     const Box = this.state.board.map((box, index) => <div className="box" key={index} onClick={this.handleClick()}>{box}</div>)
     return (
       <div className="container">
         <h1> Shaneys Tic Tac Toe App </h1>
