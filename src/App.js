@@ -10,6 +10,11 @@ class App extends Component {
   }
 
 handleClick(index) {
+  let newBoard = this.state.board
+ // this.setState({
+ //    board:
+ // })
+
   console.log(this.state.board)
   // console.log(index)
 }
