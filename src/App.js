@@ -5,7 +5,7 @@ class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      board : Array (9).fill("X")
+      board : Array (9).fill("null")
     }
   }
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <h1> Shaneys Tic Tac Toe App </h1>
         <div className="board">
         {Box}
-        
+
         </div>
       </div>
     );
