@@ -9,8 +9,8 @@ class App extends Component {
     }
   }
 
-handleClick(e) {
-  console.log(e.target)
+handleClick(index) {
+  console.log(index)
 }
 
   render() {
@@ -18,7 +18,7 @@ handleClick(e) {
        (box, index) =>
        <div className="box"
         key={index}
-        onClick={(e) => this.handleClick(e)}>
+        onClick={(e) => this.handleClick(index)}>
         {box}
       </div>
     )
