@@ -10,7 +10,8 @@ class App extends Component {
   }
 
 handleClick(index) {
-  console.log(index)
+  console.log(this.state.board)
+  // console.log(index)
 }
 
   render() {
