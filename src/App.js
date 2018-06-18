@@ -8,8 +8,13 @@ class App extends Component {
       board : Array (9).fill("null")
     }
   }
+
+handleClick(e) {
+  console.log(e)
+}
+
   render() {
-     const Box = this.state.board.map(box => <div className="box">{box}</div>)
+     const Box = this.state.board.map(box => <div className="box" onClick={this.handleClick()}>{box}</div>)
     return (
       <div className="container">
         <h1> Shaneys Tic Tac Toe App </h1>
