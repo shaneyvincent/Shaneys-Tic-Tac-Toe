@@ -14,6 +14,7 @@ class App extends Component {
 handleClick(index) {
   let newBoard = this.state.board
   newBoard[index] = "LOS"
+  newPlayer
  this.setState({
     board: newBoard
  })
