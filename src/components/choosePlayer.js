@@ -7,3 +7,5 @@ class Player extends Component {
 
     }
 }
+
+export default Player;
