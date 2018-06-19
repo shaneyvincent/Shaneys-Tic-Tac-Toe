@@ -4,6 +4,7 @@ class Player extends Component {
 
   handleForm(e){
     e.preventDefault();
+    console.log(e.target.player.value)
   }
 
     render() {
