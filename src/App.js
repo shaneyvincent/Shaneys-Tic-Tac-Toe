@@ -24,7 +24,7 @@ checkWinner(){
     ["2","4","6" ],
   ]
 
-for (let index = 0; index < array.length; index++) {
+for (let index = 0; index < winLines.length; index++) {
   const element = array[index];
 }
 
