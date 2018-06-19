@@ -23,6 +23,7 @@ handleClick(index) {
   }
 
 
+  this.checkWinner()
 }
 
   render() {
