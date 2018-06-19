@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 
 class Player extends Component {
 
+
+
     render() {
        return (
-         <form>
+         <form onSubmit={(e) => this.handleForm(e)}>
           <label>
 
         Player LOS
