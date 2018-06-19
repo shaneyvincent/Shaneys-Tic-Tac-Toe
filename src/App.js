@@ -17,10 +17,10 @@ handleClick(index) {
       newBoard[index] = this.state.player
   }
 
-  let newPlayer = this.state.player === "LOS" ? "NEGROS" : "LOS"
+
  this.setState({
     board: newBoard,
-    player: newPlayer
+    player: this.state.player === "LOS" ? "NEGROS" : "LOS"
  })
 }
 
