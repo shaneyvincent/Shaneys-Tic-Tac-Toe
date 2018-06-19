@@ -7,7 +7,9 @@ class App extends Component {
     this.state = {
       board: Array (9).fill(null),
 
-      player: "LOS"
+      player: "LOS",
+
+      winner: null
     }
   }
 
@@ -28,7 +30,7 @@ checkWinner(){
 for (let index = 0; index < winLines.length; index++) {
   const [a, b ,c] = winLines[index];
   if (this.state.board[a] && this.state.board[a] === this.state.board[b] && this.state.board[a] === this.state.board[c]) {
-    alert('https://www.losnegrosmusic.com');
+    alert('while Kye Sleeps');
   }
 
 }
