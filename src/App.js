@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Player from './components/choosePlayer';
 
 class App extends Component {
   constructor(props){
