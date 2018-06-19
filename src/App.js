@@ -31,6 +31,9 @@ for (let index = 0; index < winLines.length; index++) {
   const [a, b ,c] = winLines[index];
   if (this.state.board[a] && this.state.board[a] === this.state.board[b] && this.state.board[a] === this.state.board[c]) {
     alert('while Kye Sleeps');
+    this.setState({
+      winner:this.state.player
+    })
   }
 
 }
