@@ -24,9 +24,15 @@ checkWinner(){
     ["2","4","6" ],
   ]
 
+
 for (let index = 0; index < winLines.length; index++) {
   const [a, b ,c] = winLines[index];
+  if (this.state.board[a] === this.state.board[b] && this.state.board[a] === this.state.board[c]){
+    alert('https://www.losnegrosmusic.com');
+  }
+
 }
+
 
 }
 
