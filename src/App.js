@@ -11,6 +11,17 @@ class App extends Component {
     }
   }
 
+checkWinner(){
+  let winLines =
+  [
+    ["0","1","2" ],
+    ["3","4","5" ],
+    ["6","7","8" ],
+
+  ]
+
+}
+
 handleClick(index) {
   let newBoard = this.state.board
   if (this.state.board[index] === null) {
