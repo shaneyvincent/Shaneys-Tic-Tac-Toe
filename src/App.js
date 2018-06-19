@@ -30,7 +30,7 @@ checkWinner(){
 for (let index = 0; index < winLines.length; index++) {
   const [a, b ,c] = winLines[index];
   if (this.state.board[a] && this.state.board[a] === this.state.board[b] && this.state.board[a] === this.state.board[c]) {
-    alert('while Kye Sleeps');
+    alert('while Kye Sleeps!');
     this.setState({
       winner: this.state.player
     })
@@ -43,7 +43,7 @@ for (let index = 0; index < winLines.length; index++) {
 
 handleClick(index) {
   let newBoard = this.state.board
-  if (this.state.board[index] === null) {
+  if (this.state.board[index] === null && !this.state.winner) {
       newBoard[index] = this.state.player
 
       this.setState({
