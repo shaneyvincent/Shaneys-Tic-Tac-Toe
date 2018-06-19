@@ -7,7 +7,7 @@ class App extends Component {
     this.state = {
       board: Array (9).fill(null),
 
-      player: "X"
+      player: "LOS"
     }
   }
 
