@@ -69,6 +69,7 @@ handleClick(index) {
     return (
       <div className="container">
         <h1> Shaneys Tic Tac Toe App </h1>
+        <Player />
         <div className="board">
         {Box}
 
