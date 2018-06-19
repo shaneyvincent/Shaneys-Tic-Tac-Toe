@@ -17,9 +17,6 @@ handleClick(index) {
  this.setState({
     board: newBoard
  })
-
-  console.log(this.state.board)
-  // console.log(index)
 }
 
   render() {
